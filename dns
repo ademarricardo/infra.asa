@@ -1,0 +1,12 @@
+mkdir prova.asa.br
+ apt-get install bind9
+ 
+ zone "." {
+  type master
+  file "etc/bind/infra.asa"
+  }
+  zone "prova.asa.br"{
+  type master
+  file "etc/bind/prova.asa.br" {
+  }
+  
