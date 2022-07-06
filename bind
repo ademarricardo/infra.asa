@@ -1,0 +1,11 @@
+$TTL 86000
+@   IN SOA  localhost  prova.asa.br. (
+                   4   ;serial
+               321000  ;refresh
+                8400   ; retry
+                21400  ; expire
+
+@   IN       NS prova.asa.br;
+@   IN       A  
+                
+          
