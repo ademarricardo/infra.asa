@@ -1,0 +1,6 @@
+version: "3.2"
+  services:
+    nginx:
+     conteiner_web1
+      image:nginx
+  
